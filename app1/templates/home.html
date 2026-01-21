@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app1 templates</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .card{
+            background-color: #111;
+            padding: 40px;
+            width: 420px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(255, 0, 128, 0.6);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover{
+            transform: scale(1.05);
+        }
+
+        h1{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .anju{
+            color: #ff4da6;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .heart{
+            display: none;
+            font-size: 28px;
+            margin-left: 8px;
+        }
+
+        .anju:hover .heart{
+            display: inline;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .bold{
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Hello <span class="anju">Anju<span class="heart">💗</span></span></h1>
+
+        <p>
+            Anju I love you so much. Please be with me forever and I will never let you regret choosing me.
+        </p>
+
+        <p class="bold">
+            I love you my Budi 🫂
+        </p>
+    </div>
+
+</body>
+</html>
