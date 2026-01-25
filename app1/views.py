@@ -1,3 +1,3 @@
 from django.shortcuts import render
 def home(request):
-    return render(request,'app1/templates/home.html')
+    return render(request,'app1/home.html')
